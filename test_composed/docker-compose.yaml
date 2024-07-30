@@ -1,0 +1,89 @@
+services:
+  toggling-0:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_toggling.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  toggling-1:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_toggling.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  toggling-2:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_toggling.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  toggling-3:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_toggling.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  toggling-4:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_toggling.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  healthy-0:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_healthy.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  healthy-1:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_healthy.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  healthy-2:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_healthy.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  healthy-3:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_healthy.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  unhealthy-0:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_unhealthy.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  unhealthy-1:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_unhealthy.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  unhealthy-2:
+    build: ./image
+    healthcheck:
+      test: ["CMD", "/healthcheck_unhealthy.fish"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+  unchecked-0:
+    build: ./image
+  unchecked-1:
+    build: ./image
