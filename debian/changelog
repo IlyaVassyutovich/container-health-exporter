@@ -1,0 +1,27 @@
+container-health-exporter (0.7.0) unstable; urgency=low
+
+  [ Ilya Vassyutovich ]
+  * Rework status metric to int
+
+ -- Ilya Vassyutovich <me@iv.link>  Sat, 29 Jul 2024 16:21:00 +0300
+
+container-health-exporter (0.6.2) unstable; urgency=low
+
+  [ Ilya Vassyutovich ]
+  * Handle \"starting\"-state
+
+ -- Ilya Vassyutovich <me@iv.link>  Sat, 29 Jul 2024 09:28:00 +0300
+
+container-health-exporter (0.6.1) unstable; urgency=low
+
+  [ Ilya Vassyutovich ]
+  * Try-except things
+
+ -- Ilya Vassyutovich <me@iv.link>  Sat, 29 Jul 2024 09:11:00 +0300
+
+container-health-exporter (0.6.0) unstable; urgency=low
+
+  [ Ilya Vassyutovich ]
+  * Initial release
+
+ -- Ilya Vassyutovich <me@iv.link>  Sat, 27 Jul 2024 10:56:00 +0300

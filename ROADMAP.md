@@ -1,0 +1,3 @@
+- [ ] Proper README
+- [ ] Create a PPA for package distribution
+- [ ] Implement auto-pipeline for package creation and publishing
