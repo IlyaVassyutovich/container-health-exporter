@@ -1,0 +1,10 @@
+Source: container-health-exporter
+Maintainer: Ilya Vassyutovich <me@iv.link>
+Section: base
+Priority: optional
+Standards-Version: 3.9.5
+
+Package: container-health-exporter
+Architecture: amd64
+Depends: dpkg (>= 1.20), python3
+Description: Container health Prometheus exporter.
